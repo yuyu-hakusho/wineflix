@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@400;700&display=swap);
+
+/* .hero-image{position:absolute;top:0;left:0;right:0;z-index:-1} */
+
+.hero-content{margin-top:200px;margin-bottom:200px}
+
+.hero-content h3{margin-top:24px;margin-bottom:24px;font-size:30px;font-weight:700;text-shadow:1px 1px 1px #333}
+
+.hero-content p{font-size:24px;margin-bottom:24px;max-width:600px;line-height:1.4}
+
+/* h1{font-family:Bebas Neue,cursive;font-size:36px;letter-spacing:1px;margin-right:32px;color:#b81430} */
+
+.hero .hero-content,.hero nav{padding:18px 48px}
+
+img{max-width:100%}
+
+/* body{font-family:Fira Sans,sans-serif;background-color:#1a1a1a}
+
+main{padding:18px 48px;margin-top:-72px} */

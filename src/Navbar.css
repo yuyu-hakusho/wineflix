@@ -1,0 +1,17 @@
+.navigation-links,h1{display:inline}
+
+.navigation-links li{display:inline-block;margin-right:18px}
+
+.navigation-links li.active,.user-avatar{font-weight:700}
+
+nav{background-color:rgba(0,0,0,.2);font-size:16px;display:flex;flex-flow:row nowrap;justify-content:space-between}
+
+nav .primary-navigation{display:flex;align-items:center}
+
+nav .primary-navigation .navigation-links{display:inline}
+
+nav .primary-navigation .navigation-links li{display:inline-block;margin-right:18px}
+
+nav .primary-navigation .navigation-links li.active{font-weight:700}
+
+a{color:inherit;text-decoration:none}

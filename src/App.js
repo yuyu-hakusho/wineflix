@@ -1,10 +1,25 @@
+import React from 'react';
+import Hero from './Hero';
+import DrinkStatus from './DrinkStatus';
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
 
-const App = () => {
+// function App() {
+//   return ( 
+//     <div>
+//       <Hero />
+//       <DrinkStatus />
+//     </div>
+//   );
+// }
+
+function App() {
   return (
   <div className="App">
+    <Hero />
+      
+    {/* <div className="App">
     <header className="hero">
       <img className="hero-image" src="/wine-hero.webp" alt="Wine bottles" />
       <nav className="navigation">
@@ -54,7 +69,7 @@ const App = () => {
           </li>
         </ul>
       </div>
-    </header>
+    </header> */}
     <main>
       <section className="category">
         <h2>Drink Again</h2>
@@ -175,7 +190,7 @@ const App = () => {
       </section>
     </main>
   </div>
-  )
-}
+  );
+} 
 
 export default App

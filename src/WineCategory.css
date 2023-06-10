@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@400;700&display=swap);
+
+.wine {width:300px;margin-right:4px;position:relative}
+
+.wine img{border-radius:4px;height:205px}
+
+.wine .new-badge{position:absolute;right:0;top:0;background-color:#b81430;color:#fff;font-weight:700;padding:8px 12px}
+
+.wine .amount-consumed{padding:0 48px 16px 48px}
+
+.wine .amount-consumed progress{width:100%;height:4px;background-color:#4d4d4d;border:none}
+
+.wine .amount-consumed progress::-moz-progress-bar, .wine .amount-consumed progress::-webkit-progress-bar{background-color:#b81430}
+
+.category{margin-bottom:16px}
+
+.category h2{color:#fff;font-size:32px;font-weight:400;margin-bottom:20px}
+
+.category ul{display:flex;flex-flow:row nowrap;overflow-x:auto}
+
+.hero{position:relative;color:#fff;overflow-y:hidden}
+
+.hero .hero-content,.hero nav{padding:18px 48px}
+
+img{max-width:100%}
+
+main{padding:18px 48px;margin-top:-72px}
