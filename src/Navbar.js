@@ -10,7 +10,8 @@ export default function Navbar() {
         {
             id: 1,
             title: 'Home',
-            href: 'https://developer.mozilla.org'
+            href: 'https://developer.mozilla.org',
+            active: true
         },
         {
             id: 2,

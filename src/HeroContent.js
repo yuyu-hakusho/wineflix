@@ -29,31 +29,6 @@ export default function HeroContent() {
           </li>
         </ul>
 
-        {/* <HeroCopyDisplayer title={heroCopy.title} subtitle={heroCopy.subtitle} imageUrl={heroCopy.imageUrl} description={heroCopy.description} /> */}
-
-        {/* <HeroCopyDisplayer {...heroCopy} /> */}
-
-        {/* 
-          Buttons - import FontAwesome icon={faPlay /} 
-
-          icons
-        */ }
-
-{/* <ul className="controls">
-      <li>
-        <button className="primary-action">
-        <FontAwesomeIcon icon={faPlay} />
-        <span>Drink</span>
-        </button>
-      </li>
-      <li>
-        <button className="secondary-action">
-          <FontAwesomeIcon icon={faInfoCircle} />
-          <span>More Info</span>
-          </button>
-      </li>
-    </ul> */}
-
       </div>
 
     );
